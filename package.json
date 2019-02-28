@@ -1,0 +1,33 @@
+{
+  "name": "-v",
+  "version": "1.0.0",
+  "description": "social network written in mern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FitzWong100/mern-social-network.git"
+  },
+  "author": "Fitz Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FitzWong100/mern-social-network/issues"
+  },
+  "homepage": "https://github.com/FitzWong100/mern-social-network#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.16",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
